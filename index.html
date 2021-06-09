@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset= utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!------Google Font------>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet" />
+    <!------Favicon------>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <!------Glide JS------>
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" />
+    <!------Animate on Scroll Effect------>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <title>E-Comm</title>
+</head>
+
+<body>
+    <!------Header------>
+    <header class="header" id="header">
+        <!------Navigation------>
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav">
+                    <div class="nav_hamburger">
+                        <svg><use xlink:href="/images/aio.svg#Menu"></use>
+              </svg>
+                    </div>
+                    <div class="nav_logo">
+                        <a href="/index.html" class="scroll-link">E-Comm</a>
+                    </div>
+                    <div class="nav_menu">
+                        <div class="menu_top">
+                            <span class="nav_category">E-Comm</span>
+                            <a href="#" class="close_toggle">
+                                <svg><use xlink:href="/images/aio.svg#Close"></use></svg>
+                            </a>
+                        </div>
+                        <ul class="nav_list">
+                            <li class="nav_item">
+                                <a href="/index.html" class="nav_link scroll-link">Home</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#" class="nav_link scroll-link">Shop</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#category" class="nav_link scroll-link">Categories</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#contact" class="nav_link scroll-link">Contact</a>
+                            </li>
+                            <li class="nav_item">
+                                <a href="#" class="nav_link scroll-link">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="nav_icons">
+                        <a href="#" class="icon_item">
+                            <svg><use xlink:href="/images/aio.svg#Search"></use></svg>
+                        </a>
+                        <a href="#" class="icon_item">
+                            <svg><use xlink:href="/images/aio.svg#Avatar"></use></svg>
+                        </a>
+                        <a href="/cart.html" class="icon_item">
+                            <svg><use xlink:href="/images/aio.svg#Basket"></use></svg>
+                            <Span id="cart_total">0</Span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!------Banner Area------>
+        <div class="banner">
+            <div class="glide" id="glide_1">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="banner_center">
+                                <div class="banner_left">
+                                    <span>New Shoes</span>
+                                    <h1>In Stock</h1>
+                                    <p>Trending from mandeep</p>
+                                    <a href="#"><button class="banner_btn">Shop Now</button></a>
+                                </div>
+                                <div class="banner_right">
+                                    <div class="banner_img-container">
+                                        <img src="/images/slides/Slider_03.png" alt="banner1" class="banner_01">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="banner_center">
+                                <div class="banner_left">
+                                    <span>New Shoes</span>
+                                    <h1>In Stock</h1>
+                                    <p>Trending from mandeep</p>
+                                    <a href="#"><button class="banner_btn">Shop Now</button></a>
+                                </div>
+                                <div class="banner_right">
+                                    <div class="banner_img-container">
+                                        <img src="/images/slides/Slider_04.png" alt="banner2" class="banner_02">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-----------Banner Bullets--------------->
+                <div class="glide__bullets" data-glide-el="controls[nav]">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                </div>
+                <!-----------Banner Arrows--------------->
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+              <svg>
+                <use xlink:href="/images/aio.svg#Back"></use>
+              </svg>
+            </button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+              <svg><use xlink:href="/images/aio.svg#Forward"></use></svg>
+            </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!------Content Area ------>
+    <contentarea id="contentarea">
+        <div class="container">
+            <!------Items collection ------>
+            <section class="section collection" id="collection">
+                <div class="container">
+                    <div class="collection_container">
+                        <div class="collection_box">
+                            <div class="contentarea_img_container">
+                                <img src="/images/slides/collection02.png" class="collection02">
+                            </div>
+                            <div class="collection_content">
+                                <div class="collection_data">
+                                    <span>New In Store</span>
+                                    <h1>Rebook Shoes</h1>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="collection_box">
+                            <div class="contentarea_img_container">
+                                <img src="/images/slides/collection01.png" class="collection01">
+                            </div>
+                            <div class="collection_content">
+                                <div class="collection_data">
+                                    <span>New In Store</span>
+                                    <h1>Vans For All</h1>
+                                    <a href="#">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------Items collection end------>
+
+            <!------Latest Products------>
+            <section class="section latest_products" id="latest">
+                <div class="title_container">
+                    <div class="section_title active" data-id="Latest Products">
+                        <span class="dot"></span>
+                        <h1 class="primary_title">Latest Products</h1>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="glide" id="glide_2">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides latest-center">
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/Nike_Air_Force_1_Low.jpeg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>Nike Air Force 1</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$180</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a data-tip="Quick View" data-place="left" href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a data-tip="Add To Wishlist" data-place="left" href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a data-tip="Add To Compare" data-place="left" href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/Nike_Zion_1.jpeg" alt="">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>Nike Zion</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$170</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/Nano_X1_Grit_Shoes.jpg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>Rebook Nano X1 Grit</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$200</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/Legacy_Lifter_II_Shoes.jpg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>Reebok Legacy Lifter II</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$250</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/ULTRABOOST_CLIMA_SHOES.jpg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>Adidas ULTRABOOST CLIMA</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$260</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/BUSENITZ_PRO_SHOES.jpg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>BUSENITZ PRO SHOES</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$150</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/DNA_ZEBRA_SHOES.jpg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>ULTRABOOST 5.0 DNA</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$260</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="product">
+                                        <div class="product_header">
+                                            <img src="/images/shoes/NMD_R1_SHOES.jpg">
+                                        </div>
+                                        <div class="product_footer">
+                                            <h3>Adidas NMD_R1</h3>
+                                            <div class="rating">
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                </svg>
+                                                <svg>
+                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                </svg>
+                                            </div>
+                                            <div class="product_price">
+                                                <h4>$200</h4>
+                                                <a href="#"><button type="button"class="product_btn">
+                                                    Add To Cart
+                                                </button>
+                                            </a>
+                                            </div>
+                                            <ul>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                        </svg>
+                                                </a>
+                                                <a href="#">
+                                                    <svg>
+                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                        </svg>
+                                                </a>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-----------2nd Banner Arrows--------------->
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                  <svg>
+                    <use xlink:href="/images/aio.svg#Back_2"></use>
+                  </svg>
+                </button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                  <svg><use xlink:href="/images/aio.svg#Forward_2"></use></svg>
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------Latest Products end------>
+            <!------2nd section------>
+            <section class="category_section section" id="category">
+                <div class="tab_list">
+                    <div class="title_container tabs">
+                        <div class="section_titles category_titles ">
+                            <div class="sesction_title filter-btn active" data-id="All Products">
+                                <span class="dot"></span>
+                                <h1 class="primary_title">All Products</h1>
+                            </div>
+                        </div>
+                        <div class="section_titles">
+                            <div class="section_title filter-btn" data-id="Trending Products">
+                                <span class="dot"></span>
+                                <h1 class="primary_title">Trending Products</h1>
+                            </div>
+                        </div>
+
+                        <div class="section_titles">
+                            <div class="section_title filter-btn" data-id="Special Products">
+                                <span class="dot"></span>
+                                <h1 class="primary_title">Special Products</h1>
+                            </div>
+                        </div>
+
+                        <div class="section_titles">
+                            <div class="section_title filter-btn" data-id="Featured Products">
+                                <span class="dot"></span>
+                                <h1 class="primary_title">Featured Products</h1>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="category_container" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="category_center"></div>
+                </div>
+            </section>
+            <!------2nd section end------>
+        </div>
+        <!-- Services Section -->
+        <section class="facility_section section" id="facility">
+            <div class="container">
+                <div class="facility_contianer" data-aos="fade-up" data-aos-duration="1200">
+                    <div class="facility_box">
+                        <div class="facility-img_container">
+                            <svg>
+<use xlink:href="/images/aio.svg#icon-airplane"></use>
+</svg>
+                        </div>
+                        <p>FREE SHIPPING WORLD WIDE</p>
+                    </div>
+
+                    <div class="facility_box">
+                        <div class="facility-img_container">
+                            <svg>
+<use xlink:href="/images/aio.svg#icon-credit-card-alt"></use>
+</svg>
+                        </div>
+                        <p>100% MONEY BACK GUARANTEE</p>
+                    </div>
+
+                    <div class="facility_box">
+                        <div class="facility-img_container">
+                            <svg>
+<use xlink:href="/images/aio.svg#icon-credit-card"></use>
+</svg>
+                        </div>
+                        <p>MANY PAYMENT GATWAYS</p>
+                    </div>
+
+                    <div class="facility_box">
+                        <div class="facility-img_container">
+                            <svg>
+<use xlink:href="/images/aio.svg#icon-headphones"></use>
+</svg>
+                        </div>
+                        <p>24/7 ONLINE SUPPORT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        </div>
+        <!-- Services Section end -->
+        <!-- NewsLetter Section start -->
+        <section class="section newsletter" id="contact">
+            <div class="container">
+                <div class="newsletter_content">
+                    <div class="newsletter_data">
+                        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+                        <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!</p>
+                    </div>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email address" class="newsletter_email">
+                        <a class="newsletter_link" href="#">subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- NewsLetter Section end-->
+
+    </contentarea>
+    <!-- content end -->
+
+    <!-- Footer -->
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer_top">
+                <div class="footer-top_box">
+                    <h3>INFORMATION</h3>
+                    <a href="#">About Us</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                    <a href="#">Site Map</a>
+                </div>
+                <div class="footer-top_box">
+                    <h3>MY ACCOUNT</h3>
+                    <a href="#">My Account</a>
+                    <a href="#">Order History</a>
+                    <a href="#">Wish List</a>
+                    <a href="#">Newsletter</a>
+                    <a href="#">Returns</a>
+                </div>
+                <div class="footer-top_box">
+                    <h3>CONTACT US</h3>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="/images/aio.svg#icon-location"></use>
+              </svg>
+            </span> @House
+                    </div>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="/images/aio.svg#icon-envelop"></use>
+              </svg>
+            </span> @Email
+                    </div>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="/images/aio.svg#icon-phone"></use>
+              </svg>
+            </span> @Number
+                    </div>
+                    <div>
+                        <span>
+              <svg>
+                <use xlink:href="/images/aio.svg#icon-paperplane"></use>
+              </svg>
+            </span> @Location
+                    </div>
+                </div>
+                <div class="footer-top_box">
+                    <h3>CONNECT TO US</h3>
+                    <div class="connect">
+                        <ul>
+                            <li>
+                                <a href="www.facebook.com" class="facebook">
+                                    <svg id="facebook">
+                                        <use xlink:href="/images/social.svg#Facebook"></use>  
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.twitter.com" class="twitter">
+                                    <svg id="twitter">
+                                        <use xlink:href="/images/social.svg#Twitter"></use>  
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.google.com" class="google">
+                                    <svg id="google">
+                                        <use xlink:href="/images/social.svg#Google"></use>  
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="www.linkedin.com" class="linkedin">
+                                    <svg id="linkedin">
+                                        <use xlink:href="/images/social.svg#Line"></use>  
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="footer-bottom_box">
+
+            </div>
+            <div class="footer-bottom_box">
+
+            </div>
+        </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- custom PopUp notice -->
+    <div class="popup hide_popup">
+        <div class="popup_content">
+            <div class="popup_close">
+                <svg>
+      <use xlink:href="/images/aio.svg#icon-cross"></use>
+    </svg>
+            </div>
+            <div class="popup_left">
+                <div class="popup-img_container">
+                    <img class="popup_img" src="/images/slides/Slider_03.png" alt="popup">
+                </div>
+            </div>
+            <div class="popup_right">
+                <div class="right_content">
+                    <h1>Get Discount <span>30%</span> Off</h1>
+                    <p>Sign up to our newsletter and save 30% for you next purchase. No spam, we promise!
+                    </p>
+                    <form action="#">
+                        <input type="email" placeholder="Enter your email..." class="popup__form">
+                        <a href="#">Subscribe</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- custom PopUp notice end -->
+
+
+    <!-- Go To Top again -->
+    <a href="#header" class="goto-top scroll-link">
+        <svg>
+      <use xlink:href="/images/aio.svg#icon-arrow-up"></use>
+    </svg>
+        <!-- Go To Top again code end -->
+
+        <!------GliderJS------>
+        <script src="node_modules/@glidejs/glide/dist/glide.min.js" async></script>
+
+        <!------AOS------>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
+
+
+        <!------Script------>
+        <script src="/js/index.js" async></script>
+        <script src="/js/slider.js" async></script>
+        <script src="/js/products.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,142 @@
+{
+    "products": [{
+            "id": 6,
+            "title": "Nike Air Force 1 Low",
+            "image": "/images/shoes/Nike_Air_Force_1_Low.jpeg",
+            "price": 180,
+            "category": "Featured Products"
+        },
+
+        {
+            "id": 3,
+            "title": "Nike Air Force 1 '07 Essential",
+            "image": "/images/shoes/Nike_Air_Force_1_07_Essential.jpeg",
+            "price": 150,
+            "category": "Special Products"
+        },
+        {
+            "id": 4,
+            "title": "Nike Free Metcon 4",
+            "image": "/images/shoes/Nike_Free_Metcon_4.jpeg",
+            "price": 170,
+            "category": "Special Products"
+        },
+        {
+            "id": 8,
+            "title": "Nike Zion 1",
+            "image": "/images/shoes/Nike_Zion_1.jpeg",
+            "price": 170,
+            "category": "Featured Products"
+        },
+        {
+            "id": 5,
+            "title": "Nike Revolution 5",
+            "image": "/images/shoes/Nike_Revolution_5.jpeg",
+            "price": 250,
+            "category": "Special Products"
+        },
+
+        {
+            "id": 7,
+            "title": "Jordan MA2",
+            "image": "/images/shoes/Jordan_MA2.jpeg",
+            "price": 180,
+            "category": "Featured Products"
+        },
+
+
+        {
+            "id": 10,
+            "title": "Rebook Nano X1 Grit Shoes",
+            "image": "/images/shoes/Nano_X1_Grit_Shoes.jpg",
+            "price": 200,
+            "category": "Special Products"
+        },
+        {
+            "id": 11,
+            "title": "Rebook Question Low Shoes",
+            "image": "/images/shoes/Question_Low_Shoes.jpg",
+            "price": 200,
+            "category": "Special Products"
+        },
+        {
+            "id": 13,
+            "title": "Reebok Club C 85 Shoes",
+            "image": "/images/shoes/Club_C_85_Shoes.jpg",
+            "price": 130,
+            "category": "Trending Products"
+        },
+        {
+            "id": 12,
+            "title": "Reebok Legacy Lifter II Shoes",
+            "image": "/images/shoes/Legacy_Lifter_II_Shoes.jpg",
+            "price": 250,
+            "category": "Special Products"
+        },
+
+        {
+            "id": 14,
+            "title": "Reebok Nano X1 Lux Shoes",
+            "image": "/images/shoes/Nano_X1_Lux_Shoes.jpg",
+            "price": 220,
+            "category": "Trending Products"
+        },
+        {
+            "id": 9,
+            "title": "Reebok Classic Nylon Shoes",
+            "image": "/images/shoes/Classic_Nylon_Shoes.jpg",
+            "price": 100,
+            "category": "Special Products"
+        },
+        {
+            "id": 15,
+            "title": "Adidas ULTRABOOST CLIMA SHOES",
+            "image": "/images/shoes/ULTRABOOST_CLIMA_SHOES.jpg",
+            "price": 260,
+            "category": "Trending Products"
+        },
+        {
+            "id": 16,
+            "title": "Adidas NMD_R1 SHOES",
+            "image": "/images/shoes/NMD_R1_SHOES.jpg",
+            "price": 200,
+            "category": "Special Products"
+        },
+        {
+            "id": 17,
+            "title": "FIVE TEN FREERIDER PRO MOUNTAIN BIKE SHOES",
+            "image": "/images/shoes/FIVE_TEN_FREERIDER.jpg",
+            "price": 220,
+            "category": "Trending Products"
+        },
+        {
+            "id": 2,
+            "title": "CONTINENTAL 80 SHOES",
+            "image": "/images/shoes/CONTINENTAL_80_SHOES.jpg",
+            "price": 150,
+            "category": "Special Products"
+        },
+        {
+            "id": 18,
+            "title": "ULTRABOOST 5.0 DNA ZEBRA SHOES",
+            "image": "/images/shoes/DNA_ZEBRA_SHOES.jpg",
+            "price": 260,
+            "category": "Trending Products"
+        },
+        {
+            "id": 20,
+            "title": "ULTRA 4D 5 SHOES",
+            "image": "/images/shoes/ULTRA_SHOES.jpg",
+            "price": 380,
+            "category": "Special Products"
+        },
+        {
+            "id": 19,
+            "title": "BUSENITZ PRO SHOES",
+            "image": "/images/shoes/BUSENITZ_PRO_SHOES.jpg",
+            "price": 150,
+            "category": "Trending Products"
+        }
+
+    ]
+}
