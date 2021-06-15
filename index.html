@@ -1,25 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset= utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="pageable.js"></script>
+    <script type="text/javascript" src="front-end.js"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="front-end.css">
+    <meta http-equiv="Content-Type" content="text/html; charset= utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!------Google Font------>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,700&amp;display=swap" rel="stylesheet">
     <!------Favicon------>
-    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../../../../images/favicon.ico" type="image/x-icon">
 
     <!------Glide JS------>
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css" />
-    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css" />
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
     <!------Animate on Scroll Effect------>
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link rel="stylesheet" href="/style/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../../../style/style.css">
     <title>E-Comm</title>
+    <meta name="generator" content="Silex v2.2.7">
+    <style class="silex-inline-styles" type="text/css"></style>
+    <script type="text/javascript" class="silex-json-styles">
+        [{"desktop":{"silex-id-1623778554305-0":{}},"mobile":{},"componentData":{}}]
+    </script>
+    <style type="text/css" class="silex-style"></style>
+    <script type="text/javascript" class="silex-script"></script>
+
+    <!-- Silex HEAD tag do not remove -->
+    <!-- End of Silex HEAD tag do not remove -->
 </head>
 
-<body>
+<body class="container-element silex-id-1623778554305-0 silex-runtime" data-silex-type="container" data-silex-id="silex-id-1623778554305-0">
     <!------Header------>
     <header class="header" id="header">
         <!------Navigation------>
@@ -27,22 +43,22 @@
             <div class="container">
                 <nav class="nav">
                     <div class="nav_hamburger">
-                        <svg><use xlink:href="/images/aio.svg#Menu"></use>
+                        <svg><use xlink:href="../../../../images/aio.svg#Menu"></use>
               </svg>
                     </div>
                     <div class="nav_logo">
-                        <a href="/index.html" class="scroll-link">E-Comm</a>
+                        <a href="../../../../index.html" class="scroll-link">E-Comm</a>
                     </div>
                     <div class="nav_menu">
                         <div class="menu_top">
                             <span class="nav_category">E-Comm</span>
                             <a href="#" class="close_toggle">
-                                <svg><use xlink:href="/images/aio.svg#Close"></use></svg>
+                                <svg><use xlink:href="../../../../images/aio.svg#Close"></use></svg>
                             </a>
                         </div>
                         <ul class="nav_list">
                             <li class="nav_item">
-                                <a href="/index.html" class="nav_link scroll-link">Home</a>
+                                <a href="../../../../index.html" class="nav_link scroll-link">Home</a>
                             </li>
                             <li class="nav_item">
                                 <a href="#" class="nav_link scroll-link">Shop</a>
@@ -60,14 +76,14 @@
                     </div>
                     <div class="nav_icons">
                         <a href="#" class="icon_item">
-                            <svg><use xlink:href="/images/aio.svg#Search"></use></svg>
+                            <svg><use xlink:href="../../../../images/aio.svg#Search"></use></svg>
                         </a>
                         <a href="#" class="icon_item">
-                            <svg><use xlink:href="/images/aio.svg#Avatar"></use></svg>
+                            <svg><use xlink:href="../../../../images/aio.svg#Avatar"></use></svg>
                         </a>
-                        <a href="/cart.html" class="icon_item">
-                            <svg><use xlink:href="/images/aio.svg#Basket"></use></svg>
-                            <Span id="cart_total">0</Span>
+                        <a href="../../../../cart.html" class="icon_item">
+                            <svg><use xlink:href="../../../../images/aio.svg#Basket"></use></svg>
+                            <span id="cart_total">0</span>
                         </a>
                     </div>
                 </nav>
@@ -88,7 +104,7 @@
                                 </div>
                                 <div class="banner_right">
                                     <div class="banner_img-container">
-                                        <img src="/images/slides/Slider_03.png" alt="banner1" class="banner_01">
+                                        <img src="../../../../images/slides/Slider_03.png" alt="banner1" class="banner_01">
                                     </div>
                                 </div>
                             </div>
@@ -103,7 +119,7 @@
                                 </div>
                                 <div class="banner_right">
                                     <div class="banner_img-container">
-                                        <img src="/images/slides/Slider_04.png" alt="banner2" class="banner_02">
+                                        <img src="../../../../images/slides/Slider_04.png" alt="banner2" class="banner_02">
                                     </div>
                                 </div>
                             </div>
@@ -119,11 +135,11 @@
                 <div class="glide__arrows" data-glide-el="controls">
                     <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
               <svg>
-                <use xlink:href="/images/aio.svg#Back"></use>
+                <use xlink:href="../../../../images/aio.svg#Back"></use>
               </svg>
             </button>
                     <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-              <svg><use xlink:href="/images/aio.svg#Forward"></use></svg>
+              <svg><use xlink:href="../../../../images/aio.svg#Forward"></use></svg>
             </button>
                 </div>
             </div>
@@ -140,7 +156,7 @@
                     <div class="collection_container">
                         <div class="collection_box">
                             <div class="contentarea_img_container">
-                                <img src="/images/slides/collection02.png" class="collection02">
+                                <img src="../../../../images/slides/collection02.png" class="collection02">
                             </div>
                             <div class="collection_content">
                                 <div class="collection_data">
@@ -152,7 +168,7 @@
                         </div>
                         <div class="collection_box">
                             <div class="contentarea_img_container">
-                                <img src="/images/slides/collection01.png" class="collection01">
+                                <img src="../../../../images/slides/collection01.png" class="collection01">
                             </div>
                             <div class="collection_content">
                                 <div class="collection_data">
@@ -182,30 +198,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/Nike_Air_Force_1_Low.jpeg">
+                                            <img src="../../../../images/shoes/Nike_Air_Force_1_Low.jpeg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>Nike Air Force 1</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$180</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -213,17 +229,17 @@
                                             <ul>
                                                 <a data-tip="Quick View" data-place="left" href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a data-tip="Add To Wishlist" data-place="left" href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a data-tip="Add To Compare" data-place="left" href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -233,30 +249,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/Nike_Zion_1.jpeg" alt="">
+                                            <img src="../../../../images/shoes/Nike_Zion_1.jpeg" alt="">
                                         </div>
                                         <div class="product_footer">
                                             <h3>Nike Zion</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$170</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -264,17 +280,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -284,30 +300,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/Nano_X1_Grit_Shoes.jpg">
+                                            <img src="../../../../images/shoes/Nano_X1_Grit_Shoes.jpg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>Rebook Nano X1 Grit</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$200</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -315,17 +331,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -335,30 +351,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/Legacy_Lifter_II_Shoes.jpg">
+                                            <img src="../../../../images/shoes/Legacy_Lifter_II_Shoes.jpg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>Reebok Legacy Lifter II</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$250</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -366,17 +382,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -386,30 +402,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/ULTRABOOST_CLIMA_SHOES.jpg">
+                                            <img src="../../../../images/shoes/ULTRABOOST_CLIMA_SHOES.jpg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>Adidas ULTRABOOST CLIMA</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$260</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -417,17 +433,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -437,30 +453,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/BUSENITZ_PRO_SHOES.jpg">
+                                            <img src="../../../../images/shoes/BUSENITZ_PRO_SHOES.jpg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>BUSENITZ PRO SHOES</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$150</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -468,17 +484,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -488,30 +504,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/DNA_ZEBRA_SHOES.jpg">
+                                            <img src="../../../../images/shoes/DNA_ZEBRA_SHOES.jpg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>ULTRABOOST 5.0 DNA</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$260</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -519,17 +535,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -539,30 +555,30 @@
                                 <li class="glide__slide">
                                     <div class="product">
                                         <div class="product_header">
-                                            <img src="/images/shoes/NMD_R1_SHOES.jpg">
+                                            <img src="../../../../images/shoes/NMD_R1_SHOES.jpg">
                                         </div>
                                         <div class="product_footer">
                                             <h3>Adidas NMD_R1</h3>
                                             <div class="rating">
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-full"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-full"> </use>
                                                 </svg>
                                                 <svg>
-                                                    <use xlink:href="/images/aio.svg#icon-star-empty"> </use>
+                                                    <use xlink:href="../../../../images/aio.svg#icon-star-empty"> </use>
                                                 </svg>
                                             </div>
                                             <div class="product_price">
                                                 <h4>$200</h4>
-                                                <a href="#"><button type="button"class="product_btn">
+                                                <a href="#"><button type="button" class="product_btn">
                                                     Add To Cart
                                                 </button>
                                             </a>
@@ -570,17 +586,17 @@
                                             <ul>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#icon-eye"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#icon-eye"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#Heart"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#Heart"> </use>
                                                         </svg>
                                                 </a>
                                                 <a href="#">
                                                     <svg>
-                                                            <use xlink:href="/images/aio.svg#The_envelope"> </use>
+                                                            <use xlink:href="../../../../images/aio.svg#The_envelope"> </use>
                                                         </svg>
                                                 </a>
                                             </ul>
@@ -593,11 +609,11 @@
                         <div class="glide__arrows" data-glide-el="controls">
                             <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
                   <svg>
-                    <use xlink:href="/images/aio.svg#Back_2"></use>
+                    <use xlink:href="../../../../images/aio.svg#Back_2"></use>
                   </svg>
                 </button>
                             <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                  <svg><use xlink:href="/images/aio.svg#Forward_2"></use></svg>
+                  <svg><use xlink:href="../../../../images/aio.svg#Forward_2"></use></svg>
                 </button>
                         </div>
                     </div>
@@ -650,7 +666,7 @@
                     <div class="facility_box">
                         <div class="facility-img_container">
                             <svg>
-<use xlink:href="/images/aio.svg#icon-airplane"></use>
+<use xlink:href="../../../../images/aio.svg#icon-airplane"></use>
 </svg>
                         </div>
                         <p>FREE SHIPPING WORLD WIDE</p>
@@ -659,7 +675,7 @@
                     <div class="facility_box">
                         <div class="facility-img_container">
                             <svg>
-<use xlink:href="/images/aio.svg#icon-credit-card-alt"></use>
+<use xlink:href="../../../../images/aio.svg#icon-credit-card-alt"></use>
 </svg>
                         </div>
                         <p>100% MONEY BACK GUARANTEE</p>
@@ -668,7 +684,7 @@
                     <div class="facility_box">
                         <div class="facility-img_container">
                             <svg>
-<use xlink:href="/images/aio.svg#icon-credit-card"></use>
+<use xlink:href="../../../../images/aio.svg#icon-credit-card"></use>
 </svg>
                         </div>
                         <p>MANY PAYMENT GATWAYS</p>
@@ -677,7 +693,7 @@
                     <div class="facility_box">
                         <div class="facility-img_container">
                             <svg>
-<use xlink:href="/images/aio.svg#icon-headphones"></use>
+<use xlink:href="../../../../images/aio.svg#icon-headphones"></use>
 </svg>
                         </div>
                         <p>24/7 ONLINE SUPPORT</p>
@@ -685,7 +701,7 @@
                 </div>
             </div>
         </section>
-        </div>
+
         <!-- Services Section end -->
         <!-- NewsLetter Section start -->
         <section class="section newsletter" id="contact">
@@ -715,7 +731,7 @@
                     <h3>INFORMATION</h3>
                     <a href="#">About Us</a>
                     <a href="#">Privacy Policy</a>
-                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Terms &amp; Conditions</a>
                     <a href="#">Contact Us</a>
                     <a href="#">Site Map</a>
                 </div>
@@ -732,28 +748,28 @@
                     <div>
                         <span>
               <svg>
-                <use xlink:href="/images/aio.svg#icon-location"></use>
+                <use xlink:href="../../../../images/aio.svg#icon-location"></use>
               </svg>
             </span> @House
                     </div>
                     <div>
                         <span>
               <svg>
-                <use xlink:href="/images/aio.svg#icon-envelop"></use>
+                <use xlink:href="../../../../images/aio.svg#icon-envelop"></use>
               </svg>
             </span> @Email
                     </div>
                     <div>
                         <span>
               <svg>
-                <use xlink:href="/images/aio.svg#icon-phone"></use>
+                <use xlink:href="../../../../images/aio.svg#icon-phone"></use>
               </svg>
             </span> @Number
                     </div>
                     <div>
                         <span>
               <svg>
-                <use xlink:href="/images/aio.svg#icon-paperplane"></use>
+                <use xlink:href="../../../../images/aio.svg#icon-paperplane"></use>
               </svg>
             </span> @Location
                     </div>
@@ -765,28 +781,28 @@
                             <li>
                                 <a href="www.facebook.com" class="facebook">
                                     <svg id="facebook">
-                                        <use xlink:href="/images/social.svg#Facebook"></use>  
+                                        <use xlink:href="../../../../images/social.svg#Facebook"></use>  
                                     </svg>
                                 </a>
                             </li>
                             <li>
                                 <a href="www.twitter.com" class="twitter">
                                     <svg id="twitter">
-                                        <use xlink:href="/images/social.svg#Twitter"></use>  
+                                        <use xlink:href="../../../../images/social.svg#Twitter"></use>  
                                     </svg>
                                 </a>
                             </li>
                             <li>
                                 <a href="www.google.com" class="google">
                                     <svg id="google">
-                                        <use xlink:href="/images/social.svg#Google"></use>  
+                                        <use xlink:href="../../../../images/social.svg#Google"></use>  
                                     </svg>
                                 </a>
                             </li>
                             <li>
                                 <a href="www.linkedin.com" class="linkedin">
                                     <svg id="linkedin">
-                                        <use xlink:href="/images/social.svg#Line"></use>  
+                                        <use xlink:href="../../../../images/social.svg#Line"></use>  
                                     </svg>
                                 </a>
                             </li>
@@ -803,7 +819,7 @@
 
             </div>
         </div>
-        </div>
+
     </footer>
     <!-- End Footer -->
 
@@ -812,12 +828,12 @@
         <div class="popup_content">
             <div class="popup_close">
                 <svg>
-      <use xlink:href="/images/aio.svg#icon-cross"></use>
+      <use xlink:href="../../../../images/aio.svg#icon-cross"></use>
     </svg>
             </div>
             <div class="popup_left">
                 <div class="popup-img_container">
-                    <img class="popup_img" src="/images/slides/Slider_03.png" alt="popup">
+                    <img class="popup_img" src="../../../../images/slides/Slider_03.png" alt="popup">
                 </div>
             </div>
             <div class="popup_right">
@@ -839,21 +855,30 @@
     <!-- Go To Top again -->
     <a href="#header" class="goto-top scroll-link">
         <svg>
-      <use xlink:href="/images/aio.svg#icon-arrow-up"></use>
+      <use xlink:href="../../../../images/aio.svg#icon-arrow-up"></use>
     </svg>
         <!-- Go To Top again code end -->
 
         <!------GliderJS------>
-        <script src="node_modules/@glidejs/glide/dist/glide.min.js" async></script>
+        <script src="node_modules/@glidejs/glide/dist/glide.min.js" async=""></script>
 
         <!------AOS------>
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" async=""></script>
 
 
         <!------Script------>
-        <script src="/js/index.js" async></script>
-        <script src="/js/slider.js" async></script>
-        <script src="/js/products.js" async></script>
+        <script src="../../../../js/index.js" async=""></script>
+        <script src="../../../../js/slider.js" async=""></script>
+        <script src="../../../../js/products.js" async=""></script>
+
+
+    </a>
+    <div class="silex-pages">
+        <div data-silex-type="image" data-silex-id="silex-id-hamburger-menu" class="menu-button editable-style silex-id-hamburger-menu image-element page-page-1 paged-element prevent-draggable prevent-resizable"><img alt="open mobile menu" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAoCAYAAAC8cqlMAAAB5UlEQVR42u2ZPWvCUBSGM+UfFO3e3dLu/QN+oKj4EUXRQREEJYgoiCAu6qCogyDo7iJ21UUaKqEgCC4iiEMGB3UVgsnpTWj/wfVK2nvhGbKEPJyT996TMMzPGg6H5mKx+GgkyuWyeTQasb8OTDwef4tEIp8+n+/LYIjJZJJHQiwzm81M6OLDarWqNpsNjEYgEJCy2ewT0+/3TagighElNFAnQT6ft1ARKkJFqMgfFvF4PFpuEwFtdrcRqVarIIoirFYrIiyXSxiPx+B2u/GJBINBuF6vQHopigK1Wg2fCMdxcLlciIuoqgqNRgOfiN1uB3Qwg91uB8fjkQiHwwEmkwne1qLxS0VuKKJle71eh06nQ4Rmswk8z+MVcTqdsNlsQJZlotF7Pp8hk8ngE4lGo/qN7xG/vV4Pb0Xm8zlxkdPpBGgMx/+yJxIJKBQKRMjlcuBwOGhq/Q+RcDgMsViMCFrAuFwu/CKDwQC22y1IkkSE/X4PgiDo+xc2Ea0S9zjGa/Hb7Xbxifj9fj0K7yFSqVTwtlY6nYbpdKpPiSRYLBbQarX0PYymFhWhIlSEilCRW6GdyUqlkoVZr9dsKpXiOY6TtW+7BkNBz/7ebrcf9L+6Xq+XRYPMMyrTq5EIhUIvaAjTJb4BBNQ2yhnth0wAAAAASUVORK5CYII="
+                class="silex-element-content"></div>
+    </div>
+
+
 </body>
 
 </html>
